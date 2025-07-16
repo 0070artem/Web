@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Итоговая аттестация</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">Ивановская<span>область</span></a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Туры</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Описание</a></li>
+                        <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" aria-label="Меню">
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Туры по Ивановской области</h1>
+                <p class="hero__subtitle">Тут вы можете выбрать себе варианты для выходных в Ивановской области.</p>
+                <div class="hero__buttons">
+                    <a href="#menu" class="btn btn--primary">Выбрать варианты</a>
+                    <a href="#contacts" class="btn btn--outline">Контакты</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+  <div class="container">
+
+    <input type="radio" name="slider" id="slide1" checked>
+    <input type="radio" name="slider" id="slide2">
+    <input type="radio" name="slider" id="slide3">
+
+    <div class="slides">
+      <div class="slide">
+        <img src="images/иван0.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="images/иван1.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="images/иван2.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="navigation">
+      <label for="slide1" class="nav-dot"></label>
+      <label for="slide2" class="nav-dot"></label>
+      <label for="slide3" class="nav-dot"></label>
+    </div>
+  </div>
+</section>
+                    <div class="about__content">
+                        <h2 class="section-title">Информация</h2>
+                        <p class="about__text">Ивановская область расположена в центре Европейской части России, входит в Центральный федеральный округ. Большая часть территории находится в междуречье Волги и Клязьмы</p>
+                        <p class="about__text"><h3>Некоторые характеристики:</h3>
+<br><h4>Территория:</h4> 21 436 км². 
+<br><h4>Границы:</h4> на севере — с Костромской, на юге — с Владимирской, на западе — с Ярославской, на востоке — с Нижегородской областями. 
+<br><h4>Областной центр:</h4> город Иваново, расстояние до Москвы — 275 км. 
+<br><h4>Климат:</h4> умеренно континентальный, с сравнительно тёплым летом и умеренно морозной зимой с устойчивым снежным покровом. 
+<br><h4>Леса:</h4> занимают около 50% территории. На севере и северо-востоке распространены хвойные леса, в центральных районах — мелколиственные (берёза, осина, ольха).</p>
+                        <ul class="about__features">
+                            <li class="feature-item">
+                                <span><h2>Достоинства</h2></span>
+                            </li>
+                            <li class="feature-item">
+                                <span>Близость к крупнейшим российским потребительским рынкам (Москвы и Санкт-Петербурга)</span>
+                            </li>
+                            <li class="feature-item">
+                                <span>Низкая стоимость земельных ресурсов</span>
+                            </li>
+                            <li class="feature-item">
+                                <span>Высокое качество трудовых ресурсов, которое обеспечивается развитой образовательной системой.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Варианты для выходных в Ивановской области.</h2>
+                
+<div class="menu__content active" id="coffee">
+                    <div class="menu__grid">
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Шуя</h3>
+                                <span class="menu-item__price">5000 руб</span>
+                            </div>
+                            <p class="menu-item__description">
+Дом фабриканта Бабурина. Краснокирпичный особняк конца XIX века, пример купеческого модерна. Принадлежал Николаю Бабурину, старообрядцу и меценату, основателю одной из крупнейших мануфактур в регионе. Сейчас внутри краеведческий музей и выставки об истории Шуи.
+Пожарная каланча. Построена в 1820-х годах на главной площади города. Высокая башня, с которой раньше наблюдали за округой, сохранилась почти в первозданном виде.
+Колокольня Воскресенского собора. Самая высокая отдельно стоящая колокольня в Европе. Со смотровой площадки на вершине колокольни открывается живописный вид на весь город, реку Теза, леса, поля.
+Железнодорожный вокзал. Построенный в конце XIX века и отреставрированный в дореволюционном стиле, вокзал привлекает внимание множеством деталей: коваными украшениями, искусно выполненной резьбой, ярким красным кирпичом, из которого выполнено строение, 
+и старинными вывесками.</p>
+                        </div>
+ <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Кинишма</h3>
+                                <span class="menu-item__price">3000 руб</span>
+                            </div>
+                            <p class="menu-item__description">Набережная Волги. Прогулочная зона вдоль реки — одно из самых красивых мест Кинешмы. Широкая набережная с видом на Волгу, лестницы, скверы и беседки тянутся от драмтеатра до паромной переправы.
+Кинешемский драматический театр имени Островского. Один из старейших театров России, основанный в 1897 году. Здание, построенное в стиле эклектики, расположено на высоком берегу Волги и само по себе является архитектурной достопримечательностью.
+Спасо-Преображенский собор. Построен в 1838 году на средства местного купечества. Является архитектурной доминантой в южной части города.
+Скульптура «Семья Волгарей». Советский памятник, установленный в 1970-х годах на набережной. Изображает мужчину, женщину и ребёнка в момент возвращения с рыбалки.</p>
+                        </div>
+<div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Приволжск</h3>
+                                <span class="menu-item__price">4000 руб</span>
+                            </div>
+                            <p class="menu-item__description">Никольский женский монастырь. Главная достопримечательность центра Приволжска — храм в стиле барокко конца XVIII столетия.
+Исторический музей. Музей рассказывает о богатой истории города и его окрестностей.
+Музей народного творчества. Здесь можно увидеть работы местных мастеров и узнать больше о традициях региона.</p>
+                        </div>
+<div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Вичуга</h3>
+                                <span class="menu-item__price">10000 руб</span>
+                            </div>
+                            <p class="menu-item__description">Воскресенская «Красная» церковь. Построена по заказу фабриканта И. Кокорева. Внешне храм сочетает мотивы древнерусской архитектуры XV века и более позднего стиля модерн. Уникальна наружная отделка — огромные майоликовые панно из керамической плитки.
+Городской парк. Гордость парка — ряды столетних лип, сосен, берёз, лиственниц и сибирских кедров. Зимой это излюбленное место прогулок лыжников.
+Народный дом. Рабочий клуб фабрики им. Ногина или Дворец культуры фабрики. Перед зданием установлен памятник вождю пролетариата В. И. Ленину.</p>
+                        </div>
+<div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Гаврилов Посад</h3>
+                                <span class="menu-item__price">8000 руб</span>
+                            </div>
+                            <p class="menu-item__description">Храмовый комплекс Ильинского подворья. Архитектурная доминанта Гаврилова Посада — Ильинская церковь, Никольская церковь и колокольня. Ильинская церковь, построенная в конце XVII — начале XVIII веков, несмотря на многочисленные переделки, сохранила особенности, присущие архитектуре провинциального барокко.
+Церковь Архангела Михаила. В XVII веке на этом месте стояла деревянная церковь Архангела Михаила, а в 1765 году была возведена каменная церковь, освящённая как Никольская.
+Памятник Владимирскому тяжеловозу. На Советской площади, на пересечении улиц Розы Люксембург и 3-го Интернационала, можно увидеть памятник этой породе лошадей.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Заволжск</h3>
+                                <span class="menu-item__price">2500 руб</span>
+                            </div>
+                            <p class="menu-item__description">Заволжский городской художественно-краеведческий музей — памятник архитектуры в бывшем особняке промышленников Бурнаевых-Курочкиных. Также в городе есть храм Святого Димитрия Солунского, усадьбы Бурнаевых-Курочкиных и памятник Ленину. 
+</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="section-title">Отзывы</h2>
+                <div class="reviews__slider">
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text"> Ивановская область — регион, где история, культура и природа сливаются в удивительный сплав. Мне посчастливилось посетить музей Бурылина, музей советского автопрома, музей семьи Цветаевых и железнодорожный вокзал Иваново. Среди экспонатов музея советского автопрома больше всего впечатлили лимузины «Чайка» — это настоящая мощь и символ эпохи.</p>
+                        <div class="review__author">
+                            <img src="images/мар.png" alt=""
+                                class="review__photo">
+                            <span class="review__name">Марина Ш.</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text"> Плёс — волшебный российский городок, из тех, что очаровывают сразу и надолго. Здесь можно полюбоваться Волгой, дышать свежим воздухом, наслаждаться архитектурой и атмосферой старинного городка. Посещение экопарка «Иволга» оставило потрясающее впечатление. Природа здесь удивительная, а участие в мастер-классе по созданию эко-игрушки своими руками стало приятным бонусом и отличным сувениром на память.</p>
+                        <div class="review__author">
+                            <img src="images/mal_chik.jpg" alt=""
+                                class="review__photo">
+                            <span class="review__name">Гость</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Посетил недавно Кинешму и был приятно удивлен! Город очаровал своей атмосферой спокойствия и уюта. Прогуливаясь по старинным улочкам, я наслаждался архитектурой и дружелюбием местных жителей. Особенно впечатлили местные музеи и живописные виды на Волгу. Обязательно вернусь снова!</p>
+                        <div class="review__author">
+                            <img src="images/102780035.png" alt=""
+                                class="review__photo">
+                            <span class="review__name">Кирилл В.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <div class="contacts__inner">
+                    <div class="contacts__info">
+                        <h2 class="section-title">Контакты</h2>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <span>ул.  10 Августа, д. 29</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone contact-icon"></i>
+                            <span>+7 (4932) 37-19-00</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <span>t24.89@mail.ru</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock contact-icon"></i>
+                            <span>08:00-18:00</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link" aria-label="Telegram"><i
+                                    class="fab fa-telegram-plane"></i></a>
+                        </div>
+                    </div>
+                    <div class="contacts__map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d139065.33825148983!2d40.817299090445445!3d57.0019672264456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414d1423afe9a7c3%3A0xe25ab9c4547ae2e!2z0JjQstCw0L3QvtCy0L4sINCY0LLQsNC90L7QstGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1752696001484!5m2!1sru!2sru"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <a href="#" class="logo">Ивановская<span>область</span></a>
+                    <p class="footer__text">туры по области</p>
+                </div>
+                <div class="footer__nav">
+                    <h3 class="footer__title">Навигация</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Главная</a></li>
+                        <li><a href="#menu" class="footer__link">Туры</a></li>
+                        <li><a href="#about" class="footer__link">Информация</a></li>
+                        <li><a href="#reviews" class="footer__link">Отзывы</a></li>
+                        <li><a href="#contacts" class="footer__link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__subscribe">
+                    <h3 class="footer__title">Подписка</h3>
+                    <p class="footer__text">Подпишитесь на наши новости и акции</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email" class="subscribe-input">
+                        <button type="submit" class="subscribe-btn"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© Шаленков Артем</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
